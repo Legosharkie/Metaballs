@@ -5,6 +5,7 @@ Game* game = nullptr;
 
 int main(int argc, char* argv[])
 {
+	std::cout << "Hello World!" << std::endl;
 	const int FPS = 60;
 	const int TPS = 20;
 	const int frameDelay = 1000 / FPS;
