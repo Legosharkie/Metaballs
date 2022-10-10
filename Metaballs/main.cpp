@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
 
 	const int H = 800;
 	const int W = 800;
-	const int res = 40;
+	const int res = 20;
 	const double aspect = (double)W / (double)H;
 
 	Uint32 frameStart;

@@ -44,11 +44,11 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, in
 		nrow++;
 	}
 
-	int Nballs = 4;
+	int Nballs = 7;
 	int minR = 40;
 	int maxR = 100;
-	int minV = 4;
-	int maxV = 10;
+	int minV = -3;
+	int maxV = 3;
 
 	int x, y, vx, vy, r;
 	srand((unsigned)time(NULL));
